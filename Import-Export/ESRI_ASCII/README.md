@@ -3,7 +3,7 @@
 This addon allows you to import raster data stored using the
 [ESRI ASCII format](http://resources.esri.com/help/9.3/arcgisdesktop/com/gp_toolref/spatial_analyst_tools/esri_ascii_raster_format.htm)
 into Blender to create a new mesh object. This data format is commonly used to
-encode LIDAR or other topology data and usually has the extension `.asc`.
+encode LIDAR or other topology data and usually has the extension `.asc`. For example, in the UK the [Environment Agency makes their LIDAR data available](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9) in this format.
 
 ![example](./examples/SK1199_DTM_2M.png)
 
