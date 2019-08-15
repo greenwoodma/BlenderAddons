@@ -9,7 +9,9 @@ encode LIDAR or other topology data and usually has the extension `.asc`.
 
 ## Features
 - correctly supports files both with and without a `NODATA_value` declaration
-- allows the mesh to be scaled on import to avoid huge meshes being produced
+- can read files which specify either `XLLCENTER` or `XLLCORNER`. The associated values are, however, currently ignored and the mesh is always positioned with the lower left corner at (0, 0, 0).
+- allows the mesh to be scaled on import to avoid huge meshes being produced. The default is set to 0.01 so that a 1km square LIDAR image becomes a 10x10 sized mesh
+- missing values are treated as being at sea level (i.e. the vertex is set to 0)
 
 ## Credits
 
