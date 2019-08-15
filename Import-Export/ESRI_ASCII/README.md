@@ -5,4 +5,4 @@ This addon allows you to import raster data stored using the
 into Blender to create a new mesh object. This data format is commonly used to
 encode LIDAR or other topology data.
 
-(./examples/SK1199_DTM_2M.png)
+![example](./examples/SK1199_DTM_2M.png)
