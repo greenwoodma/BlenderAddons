@@ -18,6 +18,7 @@ and of course once you have a mesh you can use it anyway you like, including usi
 - can read files which specify either `XLLCENTER` or `XLLCORNER`. The associated values are, however, currently ignored and the mesh is always positioned with the lower left corner at (0, 0, 0).
 - allows the mesh to be scaled on import to avoid huge meshes being produced. The default is set to 0.01 so that a 1km square LIDAR image becomes a 10x10 sized mesh
 - missing values are treated as being at sea level (i.e. the vertex is set to 0)
+- two versions provided to support both Blender 2.8 and earlier versions
 
 ## Credits
 
