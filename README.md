@@ -21,7 +21,7 @@ You can test that they are using [Flake8](http://flake8.pycqa.org)
 ```
 python3 -m flake8 <addon.py>
 ```
-If you don't have `flake7` installed you can get it by running the command
+If you don't have `flake8` installed you can get it by running the command
 ```
 python3 -m pip install flake8
 ```
